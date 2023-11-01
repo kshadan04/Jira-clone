@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.create-issue-btn{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #657284;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.create-issue-btn:hover{
+    background-color: #dee1e5;
+}
+.fr-aic{
+    display: flex;
+    align-items: center;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+
+
+.container{
+    min-width: min(250px,90vw);
+    height: 90vh;
+    background-color: #f4f5f7;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /* after adding so many card its going overflow .. to deal with overflow we use */
+    overflow-y: auto;
+}
+
+.container>p{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    color: #657284;
+    font-size: 20px;
+
+}
+
+input{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+    resize: none;
+    border: 3px solid rgba(100, 100, 250, 0.849);
+    border-radius: 5px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 10px;
+    color: #151414;
+    box-shadow: 1px 1px 3px #00000062;
+}
+
+.card>.material-icons{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* 2hours 19 min */

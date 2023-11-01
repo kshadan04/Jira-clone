@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <script src="drag.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <section class="box">
+        <div class="container" id="todo">
+            <p>To do</p>
+            <button class="fr-aic create-issue-btn" id="create-issue">
+                <span class="material-icons">add</span>
+                <span>create Issue</span>
+            </button>
+
+            <input
+             placeholder="what needs to be done" 
+             id="issue-input" 
+             class="hide" 
+             rows="5"
+             onkeypress=""
+             >
+
+
+            <!-- <div class="card">
+                <span>UI for excalidraw</span>
+                <span class="material-icons">delete</span>
+            </div> -->
+        </div>
+
+        <div class="container" id="inProgress">
+            <p>in Progress</p>
+        </div>
+        <div class="container" id="done">
+            
+            <p>done</p>
+        </div>
+    </section>
+</body>
+</html>
